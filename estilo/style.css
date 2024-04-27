@@ -1,0 +1,99 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --fontepadrao: Verdana, Geneva, Tahoma, sans-serif;
+    --fonteespecial01: 'Passion One';
+    --fonteespecial02: 'Sriracha';
+}
+p {
+    font-family: var(--fonteespecial02);
+    font-size: 3.5vw;
+    line-height: 2em;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.cabecalho {
+    background-color: black;
+    color: white;
+    max-height: 232px;
+    text-align: center;
+}
+.cabecalho > h1 {
+    font-family: var(--fonteespecial01);
+    font-variant: small-caps;
+    font-size: 10vw;
+    font-style: normal;
+    font-weight: 700;
+    padding-top: 50px;
+}
+.cabecalho > p {
+    font-family: var(--fontepadrao);
+    font-size: 1em;
+    padding-bottom: 50px;
+    line-height: 1.2;
+}
+
+.first {
+    text-align: right;
+    padding: 60.7px 30px 60.7px 0;
+}
+
+.second {
+    padding: 60.7px 0 60.7px 30px;
+}
+.second > p {
+    background-color: #0000004F;
+    text-shadow: 1px 1px 0px black;
+    box-shadow: 3px 3px 13px 0px black;
+    color: white;
+    opacity: .9;
+    width: max-content;
+    padding: 5px;
+}
+.third {
+    padding: 60.7px 0 60.7px 30px;
+}
+#first-par {
+    text-align: right;
+    padding-right: 30px;
+    padding-bottom: 71.8px;
+}
+.five {
+    padding: 60.7px 0 60.7px 30px;
+}
+.five > p {
+    background-color: #0000004F;
+    box-shadow: 3px 3px 13px 0px black;
+    text-shadow: 1px 1px 0px black;
+    color: white;
+    width: max-content;
+    padding: 5px;
+}
+.six {
+    padding: 60.7px 0 60.7px 30px;
+}
+#second-par {
+    text-align: right;
+    padding-right: 30px;
+    padding-bottom: 71.8px;
+}
+#third-par {
+    padding-bottom: 71.8px;
+}
+.creditos {
+    text-align: center;
+    background-color: #000;
+    color: white;
+    padding: 10px;
+}
+.creditos > p {
+    font-family: var(--fontepadrao);
+    font-size: 1em;
+    line-height: normal;
+}
